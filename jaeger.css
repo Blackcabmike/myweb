@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet');
+
+*{
+    margin: 5;
+    padding: 10;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 50;
+}
+
+.header{
+    background-image: url("./j5.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 450px;
+    text-align: center;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    font-size: 20px;
+    border-bottom: 3px solid white;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+}
+.nav li a:link {
+    text-decoration: none;
+    color: white;
+}
+.nav li  a:visited {
+    text-decoration: none;
+    color: white;
+}
+.nav li  a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.nav li  a:active {
+    text-decoration: underline;
+    color: white;
+}
+.header h1,p{
+    margin: 10px;
+}
+table{
+    width:80%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.container{
+        size: 100px;
+        position: center;
+        height: 100px;
+        text-align: center;
+        color:black;
+        display:flex;
+        justify-content:center;
+}
+
+.flexbox{
+    range: url("./moth.jpg");
+    display: flex; 
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    width:100%;
+    text-align:center;
+}
